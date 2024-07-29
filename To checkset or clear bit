@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main()
+{
+  char ch;
+  int bit;
+  scanf("%c",&ch);
+  printf("Enter bit position\n");
+  scanf("%d",&bit);
+  printf("%d",((ch>>bit)&1));
+}
