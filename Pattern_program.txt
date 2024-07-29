@@ -1,0 +1,26 @@
+#include<stdio.h>
+void main()
+{
+int rows,col,n;
+
+printf("Enter n value\n");
+scanf("%d",&n);
+
+for(rows=1;rows<n;rows++)
+{
+   for(col=1;col<rows;col++)
+    {
+     printf(" *");
+   }
+   printf("\n");
+}
+            
+    for(rows=1;rows<=n;rows++)
+    {
+        for (col=1;col<=n-rows;col++)
+        {
+            printf(" *");
+        }
+            printf("\n");
+    }
+}
